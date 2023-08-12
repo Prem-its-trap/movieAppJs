@@ -1,0 +1,56 @@
+html body {
+  background-color: #242a32;
+}
+.heading {
+  margin-top: 21px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+#API_Key {
+  width: inherit !important;
+  margin-bottom: 10px;
+  background-color: #3a3f47;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 5px;
+}
+#title {
+  width: 95%;
+  background-color: #3a3f47;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.card {
+  /* padding: 10px; */
+  justify-content: end !important;
+  text-align: end !important;
+  margin-bottom: 60px;
+  background-color: #1a1a1a !important;
+  border: none !important;
+  color: white;
+}
+.img {
+  height: 303px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.img > img {
+  width: inherit;
+  height: inherit;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title span {
+  font-size: 12px;
+}
+.title h3 {
+  font-size: 14px;
+  margin-top: 7px;
+}
